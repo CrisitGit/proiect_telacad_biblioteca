@@ -1,0 +1,23 @@
+Proiect tip biblioteca
+
+Biblioteca are 2 tipuri de carti : de poezii, romane. 
+
+Fiecare carte are titlu, autor, nrPag. Romanele au si tip (ex: dragoste, politist etc.). Poeziile au si nrPoezii.
+
+Aplicatia lucreaza cu o singura biblioteca si trebuie sa aiba urmatoarele functionalitati:
+adaugaRoman
+adaugaPoezie
+afiseazaCarti
+afiseazaCartiSortat
+afiseazaAutor
+exit
+
+Utilizatorul va introduce de la tastatura una dintre urmatoarele comenzi: 
+ADD_POEZII <titlu> <autor> <nrPag> <nrPoezii>
+ADD_ROMAN <titlu> <autor> <nrPag> <tip>
+AF_CARTI
+AF_CARTI_SORTATE
+AF_AUTOR <numeCarte>
+EXIT
+
+Se va crea o exceptie (de preferat checked) numita CarteInexistentaException care va fi aruncata in metoda afiseazaAutor daca titlul introdus la tastatura nu exista in "baza de date".
